@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nuevas tecnologias jeje</title>
+	</head>
+
+	<body>
+		<!-- Comentario en html!-->
+		<h1>Mi página web</h1>
+
+		<p>Hola, mi nombre es Cristian Rosero. Pero casi todos me llaman Cristian Rost. Me dicen de esta manera porque se supone que es mi nombre artístico (?). Aunque si soy artista xd, actualmente estoy haciendo mi mixtape debut: disociado en miami. Es una idea que surgió cuando estuve en miami, una idea increíble asociado con la anestesia dissociativa que genera la Ketamina, un medicamento. El caso es que ok, aqui hay un preview del tema:v</p>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/zphQj5V1SBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		<p> osea si está re mal pero pues por lo menos promete ajajjajja.
+
+		<h2>Datos random acerca de mí y mi carrera musical</h2>
+		<p>disociado en miami es un cocepto. Fácilmente puede ser la vida de alguien. Es decir, estás tan perdido que ni siquiera entiendes lo que las demás personas tienen que decir... PERO estás en miami así que qué tienes que perder???</p>
+
+
+		<button>Botón troll</button>
+		<br><br>
+
+		<button onclick="accion_1()" id="Bt1"> Botón 1</button><Br>
+
+		<button onclick="accion_2()" id="Bt2"> Botón 2</button><Br>
+
+		<button onclick="accion_3()" id="Bt3"> Botón 3</button><Br>
+
+		<h1>Queda en contacto conmigo</h1>
+
+		<p>Hola, por favor ingresa tus datos para que parchemos</p>
+		<br>
+
+		<p>Primer nombre: <input type="text" name="Recibir texto 1" id="tx_1"></p> 
+
+		<p>Segundo nombre:<input type="text" name="Recibir texto 2" id="tx_2"></p> 
+
+		<p>Primer apellido:<input type="text" name="Recibir texto 3" id="tx_3"></p> 
+
+		<p>Segundo Apellido:<input type="text" name="Recibir texto 4" id="tx_4"></p> <br>
+
+		<p>el caso es que quisiera que Juliana pase wha jajaj: :<input type="text" name="Recibir texto 4" id="tx_4"></p> <br>
+
+		<button onclick="accion_4()" id="bt4"> Concatenar</button> <br><br><br>
+
+		Nombre completo:&nbsp;<output id="out1"></output>
+
+		<style type="text/css">
+			body{
+				background-image: url(lambo.jpg);
+
+				background-repeat: round;
+
+				color: rgb(255,255,0);
+			}
+
+			h1{color: rgba(255, 255 ,0, 1.0);}
+
+			#Out1{color: rgba(255, 255, 255, 1.0);}
+
+
+
+			
+		</style>
+
+		<script type="text/javascript">
+			//comentario
+			function accion_1(){alert("Disociado en Miami surgió en el año 2022")}
+			function accion_2(){confirm("Mi música fav es el rock")}
+			function accion_3(){alert("Me gusta programar jijiji. en javascript")}
+			function accion_4(){
+				var nombreCompleto = document.getElementById('tx_1').value+" "+document.getElementById('tx_2').value+" "+document.getElementById('tx_3').value+" "+document.getElementById('tx_4').value
+				alert(nombreCompleto)
+				document.getElementById("out1").innerHTML=nombreCompleto
+			}
+
+		</script>
+		
+
+	</body>
+	</html>
+
+
+
+	
