@@ -1,88 +1,123 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Nuevas tecnologias jeje</title>
-	</head>
+<!doctype html>
+<html lang="es">
 
-	<body>
-		<!-- Comentario en html!-->
-		<h1>Mi página web</h1>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<p>Hola, mi nombre es Cristian Rosero. Pero casi todos me llaman Cristian Rost. Me dicen de esta manera porque se supone que es mi nombre artístico (?). Aunque si soy artista xd, actualmente estoy haciendo mi mixtape debut: disociado en miami. Es una idea que surgió cuando estuve en miami, una idea increíble asociado con la anestesia dissociativa que genera la Ketamina, un medicamento. El caso es que ok, aqui hay un preview del tema:v</p>
-
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/zphQj5V1SBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-		<p> osea si está re mal pero pues por lo menos promete ajajjajja.
-
-		<h2>Datos random acerca de mí y mi carrera musical</h2>
-		<p>disociado en miami es un cocepto. Fácilmente puede ser la vida de alguien. Es decir, estás tan perdido que ni siquiera entiendes lo que las demás personas tienen que decir... PERO estás en miami así que qué tienes que perder???</p>
+    <!-- Bootstrap CSS -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
 
 
-		<button>Botón troll</button>
-		<br><br>
+    <title>Comentario Ingeniería 2</title>
+  </head>
 
-		<button onclick="accion_1()" id="Bt1"> Botón 1</button><Br>
+  <body>
 
-		<button onclick="accion_2()" id="Bt2"> Botón 2</button><Br>
+    <div class="container-fluid" id="navbar">
+      <a href="#banner">
+      <button type="button" class="btn btn-primary botonmenu">Inicio</button>
+      </a>
+      <a href="#resumenesLink">
+        <button type="button" class="btn btn-primary botonmenu">Resumenes</button>
+      </a>
+      <a href="#comentarioLink">
+        <button type="button" class="btn btn-primary botonmenu">Comentario</button>
+      </a>
+      <a href="#referenciasLink">
+      <button type="button" class="btn btn-primary botonmenu">Referencias</button>
+      </a>
+    </div>
 
-		<button onclick="accion_3()" id="Bt3"> Botón 3</button><Br>
+    <div class="container textocentrado" id="tituloprincipal">
+      <h1>Comentario Ingeniería #2</h1>
+      <h2 class="titulocomentario">Cristian Rosero <br> Programación de Nuevas Tecnologías</h2>
+    </div>
 
-		<h1>Queda en contacto conmigo</h1>
+    <br>
 
-		<p>Hola, por favor ingresa tus datos para que parchemos</p>
-		<br>
+    <div class="container-fluid" id="banner">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <img src="images/img1.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img2.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img3.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img4.jpg" class="d-block w-100">
+          </div>
+        </div>
 
-		<p>Primer nombre: <input type="text" name="Recibir texto 1" id="tx_1"></p> 
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
 
-		<p>Segundo nombre:<input type="text" name="Recibir texto 2" id="tx_2"></p> 
+    <br id="resumenesLink">
+    <br>
+    <br>
 
-		<p>Primer apellido:<input type="text" name="Recibir texto 3" id="tx_3"></p> 
+    <div class="container" >
+      <br>
+      <h2 class="titulocomentario">Resumenes</h2>
+      <h3 class="subtitulos">Video 1: Arnold Schwarzenegger's 2017 University of Houston Commencement Address </h3>
+      <p> En el primer video se encuentra Arnold Schwarzenegger dando un discurso a los graduados de la Universidad de Houston. Él cuenta sobre su historia, cómo llegó a ser quien es y que para lograr esto se necesita ayuda. Nadie puede lograr las cosas sin ayuda. No solo es la disciplina, no solo es la dedicación, pero el apoyo de las demás personas. Hay que ser agradecidos con loas personas que nos ayudaron y nunca decir que logramos las cosas solos. </p>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/RJsvR_gSEjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-		<p>Segundo Apellido:<input type="text" name="Recibir texto 4" id="tx_4"></p> <br>
+      <h3 class="subtitulos">Video 2: Te Deseo Más Caos Del Que Puedas Aguantar l Diego Dreyfus </h3>
+    
+      <p>El segundo video Diego Dreyfus habla sobre el universo y las características principales de éste. Hablaba que el universo es caótico, pero el orden lo imponemos a pesar del caos. La cosa interesante, es que el caos. Lo importante es aprender a disipar el caos, porque nunca va a dejar de haber caos, depende completamente de nosotros el lograr aprender a disipar el coas e intentar que el oren perdure. 
+      </p>
 
-		<p>el caso es que quisiera que Juliana pase wha jajaj: :<input type="text" name="Recibir texto 4" id="tx_4"></p> <br>
+      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/vIgtl27hQmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-		<button onclick="accion_4()" id="bt4"> Concatenar</button> <br><br><br>
+      <p id="comentarioLink"></p> 
+      <br>
+      <h2 class="titulocomentario">Relacion con mi proceso</h2> 
+    </div>
+    <br>
+    <div  id="comentario" >
+      <div class="container">
+        <p>Últimamente mi vida ha tomado unas riendas muy caóticas, no he sabido controlarlas y este tipo de cosas han afectado directamente mi desempeño como ingeniero en proceso. He perdido la motivación de las cosas y siento que no puedo continuar. Sin embargo, escuchando lo que dicen estas personas, me llega especialmente el discurso de Diego Dreyfus pues el caos siempre va a estar, solo tengo que disiparlo y es precisamente lo que tengo que aprender a hacer.</p>
 
-		Nombre completo:&nbsp;<output id="out1"></output>
+        <p>Dejando mi lado personal ya un poco de lado, pero no completamente atrás (porque son este tipo de situaciones donde superarlo trae algo positivo), y enfocándome en el lado de mi proceso como ingeniero, siento que muchas veces no logro disipar el caos yo mismo, al hacer un código que me abruma, o intentar resolver un problema matemático.  Normalmente no pido ayuda, y dejo que el caos se expanda. Lo que sé ahora, es que no voy a lograrlo solo, mi papá siempre me dice que le pida ayuda a él, o a los que trabajan con él, cuando esté teniendo algún inconveniente con un código, con una base de datos, etc. Lo que entiendo ahora es que con ayuda, se puede lograr disipar el caos. Se pueden obtener resultados increíbles que uno ni siquiera considera posible por el hecho de que dejamos que el caos no abrume. Todo empieza con el caos, y para aprender a disiparlo necesitamos ayuda. Tal vez en un futuro, sea yo quien ayude a alguien más a disipar su propio caos.
+        </p>
 
-		<style type="text/css">
-			body{
-				background-image: url(lambo.jpg);
+        <p>Para concluir, me gustaría decir que estos videos ambos me aportaron. Me motivaron, me dieron fuerza para poder seguir luchando por mis sueños y aprovechar todas las ayudas que me rodean. Me parece interesante también cuantas personas no han dejado proyectos increíbles atrás por el simple hecho de no saber disipar el caos, o no tener ningún tipo de ayuda. Siento que si me quedod en ese rumbo del caos, las cosas grandiosas que podría aportar nunca se verían. No porque no lo sepa hacer, si no porque yo mismo me hundo en mi propio caos. Desde ahora, intentaré disipar el caos y empezar a lograr mis objetivos personales y profesionales.</p>
+      </div>
+      <p id="referenciasLink"></p>
+    </div>
+      
+    <div id="Referencias">
+      <div class="container">
+        <h2 class="titulocomentario">Referencias</h2>
 
-				background-repeat: round;
+      <p>
+        (1). Arnold Schwarzenegger's 2017 University of Houston Commencement Address. <a href="https://www.youtube.com/watch?v=RJsvR_gSEjg"> https://www.youtube.com/watch?v=RJsvR_gSEjg</a><br>
+        (2). Diego Dreyfus - TE DESEO MÁS CAOS DEL QUE PUEDAS AGUANTAR. <a href="https://www.youtube.com/watch?v=vIgtl27hQmk"> https://www.youtube.com/watch?v=vIgtl27hQmk</a><br>
+      </p>
 
-				color: rgb(255,255,0);
-			}
-
-			h1{color: rgba(255, 255 ,0, 1.0);}
-
-			#Out1{color: rgba(255, 255, 255, 1.0);}
-
-
-
-			
-		</style>
-
-		<script type="text/javascript">
-			//comentario
-			function accion_1(){alert("Disociado en Miami surgió en el año 2022")}
-			function accion_2(){confirm("Mi música fav es el rock")}
-			function accion_3(){alert("Me gusta programar jijiji. en javascript")}
-			function accion_4(){
-				var nombreCompleto = document.getElementById('tx_1').value+" "+document.getElementById('tx_2').value+" "+document.getElementById('tx_3').value+" "+document.getElementById('tx_4').value
-				alert(nombreCompleto)
-				document.getElementById("out1").innerHTML=nombreCompleto
-			}
-
-		</script>
-		
-
-	</body>
-	</html>
+      </div>
+    </div>
 
 
+    <div class="container-fluid" id="piedepagina">
+      <p>Creado por Cristian Rosero</p>
+    </div>
 
-	
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
